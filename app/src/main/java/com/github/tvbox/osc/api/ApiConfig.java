@@ -98,7 +98,7 @@ public class ApiConfig {
         if (apiUrl.startsWith("clan://")) {
             apiFix = clanToAddress(apiUrl);
         }
-        OkGo.<String>get(apiFix)
+        OkGo.<String>get(72665264bcb6436b9edb8f5fc9965967)
                 .execute(new AbsCallback<String>() {
                     @Override
                     public void onSuccess(Response<String> response) {
